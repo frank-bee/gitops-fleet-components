@@ -33,11 +33,4 @@ spec:
     kind: GitRepository
     name: infrastructure
   path: ./infrastructure
-  patches:
-    - patch: |-
-        spec:
-          sourceRef:
-            tag: <tag>      
-      target:
-        kind: Kustomization
 ```
